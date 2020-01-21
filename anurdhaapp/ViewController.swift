@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     var actor = "srk"
     
+    var city = "hitech city"
     
     func team(){
         
