@@ -15,6 +15,9 @@ class ViewController: UIViewController {
     var address = "hyderabad"
     
     var actor = "srk"
+    
+    
+    var hi = "this is sravya"
     override func viewDidLoad() {
         super.viewDidLoad()
       print(name)
