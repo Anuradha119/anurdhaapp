@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     var myname = "anuradha"
     var name = "reshma"
-    
+    var address = "hyderabad"
     override func viewDidLoad() {
         super.viewDidLoad()
       print(name)
