@@ -21,11 +21,13 @@ class ViewController: UIViewController {
         
         print("done")
     }
-    
+    var greeting = "hi reshma"
     
     var hi = "this is sravya"
     
     var msg = "hii sravya Dis is reshma"
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
       print(name)
