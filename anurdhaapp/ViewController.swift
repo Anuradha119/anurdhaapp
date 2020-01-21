@@ -34,6 +34,11 @@ class ViewController: UIViewController {
         print("my name")
         // Do any additional setup after loading the view.
     }
+    
+var commit = "push"
+
+    
+    
 
 func wishes()
 {
