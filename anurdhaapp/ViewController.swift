@@ -17,6 +17,12 @@ class ViewController: UIViewController {
     var actor = "srk"
     
     
+    func team(){
+        
+        print("done")
+    }
+    
+    
     var hi = "this is sravya"
     
     var msg = "hii sravya Dis is reshma"
