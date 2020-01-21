@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3350525123D6CC9D00C662DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3350525023D6CC9D00C662DD /* AppDelegate.swift */; };
+		3350525323D6CC9D00C662DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3350525223D6CC9D00C662DD /* SceneDelegate.swift */; };
+		3350525523D6CC9D00C662DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3350525423D6CC9D00C662DD /* ViewController.swift */; };
+		3350525823D6CC9D00C662DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3350525623D6CC9D00C662DD /* Main.storyboard */; };
+		3350525B23D6CC9D00C662DD /* anurdhaapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3350525923D6CC9D00C662DD /* anurdhaapp.xcdatamodeld */; };
+		3350525D23D6CC9E00C662DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3350525C23D6CC9E00C662DD /* Assets.xcassets */; };
+		3350526023D6CC9E00C662DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3350525E23D6CC9E00C662DD /* LaunchScreen.storyboard */; };
+		3350526B23D6CC9E00C662DD /* anurdhaappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3350526A23D6CC9E00C662DD /* anurdhaappTests.swift */; };
+		3350527623D6CC9E00C662DD /* anurdhaappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3350527523D6CC9E00C662DD /* anurdhaappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3350526723D6CC9E00C662DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3350524523D6CC9D00C662DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3350524C23D6CC9D00C662DD;
+			remoteInfo = anurdhaapp;
+		};
+		3350527223D6CC9E00C662DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3350524523D6CC9D00C662DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3350524C23D6CC9D00C662DD;
+			remoteInfo = anurdhaapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3350524D23D6CC9D00C662DD /* anurdhaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anurdhaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3350525023D6CC9D00C662DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3350525223D6CC9D00C662DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3350525423D6CC9D00C662DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3350525723D6CC9D00C662DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3350525A23D6CC9D00C662DD /* anurdhaapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = anurdhaapp.xcdatamodel; sourceTree = "<group>"; };
+		3350525C23D6CC9E00C662DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3350525F23D6CC9E00C662DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3350526123D6CC9E00C662DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3350526623D6CC9E00C662DD /* anurdhaappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anurdhaappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3350526A23D6CC9E00C662DD /* anurdhaappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anurdhaappTests.swift; sourceTree = "<group>"; };
+		3350526C23D6CC9E00C662DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3350527123D6CC9E00C662DD /* anurdhaappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anurdhaappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3350527523D6CC9E00C662DD /* anurdhaappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anurdhaappUITests.swift; sourceTree = "<group>"; };
+		3350527723D6CC9E00C662DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3350524A23D6CC9D00C662DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3350526323D6CC9E00C662DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3350526E23D6CC9E00C662DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3350524423D6CC9D00C662DD = {
+			isa = PBXGroup;
+			children = (
+				3350524F23D6CC9D00C662DD /* anurdhaapp */,
+				3350526923D6CC9E00C662DD /* anurdhaappTests */,
+				3350527423D6CC9E00C662DD /* anurdhaappUITests */,
+				3350524E23D6CC9D00C662DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3350524E23D6CC9D00C662DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3350524D23D6CC9D00C662DD /* anurdhaapp.app */,
+				3350526623D6CC9E00C662DD /* anurdhaappTests.xctest */,
+				3350527123D6CC9E00C662DD /* anurdhaappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3350524F23D6CC9D00C662DD /* anurdhaapp */ = {
+			isa = PBXGroup;
+			children = (
+				3350525023D6CC9D00C662DD /* AppDelegate.swift */,
+				3350525223D6CC9D00C662DD /* SceneDelegate.swift */,
+				3350525423D6CC9D00C662DD /* ViewController.swift */,
+				3350525623D6CC9D00C662DD /* Main.storyboard */,
+				3350525C23D6CC9E00C662DD /* Assets.xcassets */,
+				3350525E23D6CC9E00C662DD /* LaunchScreen.storyboard */,
+				3350526123D6CC9E00C662DD /* Info.plist */,
+				3350525923D6CC9D00C662DD /* anurdhaapp.xcdatamodeld */,
+			);
+			path = anurdhaapp;
+			sourceTree = "<group>";
+		};
+		3350526923D6CC9E00C662DD /* anurdhaappTests */ = {
+			isa = PBXGroup;
+			children = (
+				3350526A23D6CC9E00C662DD /* anurdhaappTests.swift */,
+				3350526C23D6CC9E00C662DD /* Info.plist */,
+			);
+			path = anurdhaappTests;
+			sourceTree = "<group>";
+		};
+		3350527423D6CC9E00C662DD /* anurdhaappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3350527523D6CC9E00C662DD /* anurdhaappUITests.swift */,
+				3350527723D6CC9E00C662DD /* Info.plist */,
+			);
+			path = anurdhaappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3350524C23D6CC9D00C662DD /* anurdhaapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3350527A23D6CC9E00C662DD /* Build configuration list for PBXNativeTarget "anurdhaapp" */;
+			buildPhases = (
+				3350524923D6CC9D00C662DD /* Sources */,
+				3350524A23D6CC9D00C662DD /* Frameworks */,
+				3350524B23D6CC9D00C662DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = anurdhaapp;
+			productName = anurdhaapp;
+			productReference = 3350524D23D6CC9D00C662DD /* anurdhaapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3350526523D6CC9E00C662DD /* anurdhaappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3350527D23D6CC9E00C662DD /* Build configuration list for PBXNativeTarget "anurdhaappTests" */;
+			buildPhases = (
+				3350526223D6CC9E00C662DD /* Sources */,
+				3350526323D6CC9E00C662DD /* Frameworks */,
+				3350526423D6CC9E00C662DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3350526823D6CC9E00C662DD /* PBXTargetDependency */,
+			);
+			name = anurdhaappTests;
+			productName = anurdhaappTests;
+			productReference = 3350526623D6CC9E00C662DD /* anurdhaappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3350527023D6CC9E00C662DD /* anurdhaappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3350528023D6CC9E00C662DD /* Build configuration list for PBXNativeTarget "anurdhaappUITests" */;
+			buildPhases = (
+				3350526D23D6CC9E00C662DD /* Sources */,
+				3350526E23D6CC9E00C662DD /* Frameworks */,
+				3350526F23D6CC9E00C662DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3350527323D6CC9E00C662DD /* PBXTargetDependency */,
+			);
+			name = anurdhaappUITests;
+			productName = anurdhaappUITests;
+			productReference = 3350527123D6CC9E00C662DD /* anurdhaappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3350524523D6CC9D00C662DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Marni Anuradha";
+				TargetAttributes = {
+					3350524C23D6CC9D00C662DD = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					3350526523D6CC9E00C662DD = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 3350524C23D6CC9D00C662DD;
+					};
+					3350527023D6CC9E00C662DD = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 3350524C23D6CC9D00C662DD;
+					};
+				};
+			};
+			buildConfigurationList = 3350524823D6CC9D00C662DD /* Build configuration list for PBXProject "anurdhaapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3350524423D6CC9D00C662DD;
+			productRefGroup = 3350524E23D6CC9D00C662DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3350524C23D6CC9D00C662DD /* anurdhaapp */,
+				3350526523D6CC9E00C662DD /* anurdhaappTests */,
+				3350527023D6CC9E00C662DD /* anurdhaappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3350524B23D6CC9D00C662DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3350526023D6CC9E00C662DD /* LaunchScreen.storyboard in Resources */,
+				3350525D23D6CC9E00C662DD /* Assets.xcassets in Resources */,
+				3350525823D6CC9D00C662DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3350526423D6CC9E00C662DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3350526F23D6CC9E00C662DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3350524923D6CC9D00C662DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3350525523D6CC9D00C662DD /* ViewController.swift in Sources */,
+				3350525123D6CC9D00C662DD /* AppDelegate.swift in Sources */,
+				3350525323D6CC9D00C662DD /* SceneDelegate.swift in Sources */,
+				3350525B23D6CC9D00C662DD /* anurdhaapp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3350526223D6CC9E00C662DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3350526B23D6CC9E00C662DD /* anurdhaappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3350526D23D6CC9E00C662DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3350527623D6CC9E00C662DD /* anurdhaappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3350526823D6CC9E00C662DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3350524C23D6CC9D00C662DD /* anurdhaapp */;
+			targetProxy = 3350526723D6CC9E00C662DD /* PBXContainerItemProxy */;
+		};
+		3350527323D6CC9E00C662DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3350524C23D6CC9D00C662DD /* anurdhaapp */;
+			targetProxy = 3350527223D6CC9E00C662DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3350525623D6CC9D00C662DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3350525723D6CC9D00C662DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3350525E23D6CC9E00C662DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3350525F23D6CC9E00C662DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3350527823D6CC9E00C662DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3350527923D6CC9E00C662DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3350527B23D6CC9E00C662DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = anurdhaapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BRNInfotech.anurdhaapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3350527C23D6CC9E00C662DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = anurdhaapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BRNInfotech.anurdhaapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3350527E23D6CC9E00C662DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = anurdhaappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BRNInfotech.anurdhaappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anurdhaapp.app/anurdhaapp";
+			};
+			name = Debug;
+		};
+		3350527F23D6CC9E00C662DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = anurdhaappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BRNInfotech.anurdhaappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anurdhaapp.app/anurdhaapp";
+			};
+			name = Release;
+		};
+		3350528123D6CC9E00C662DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = anurdhaappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BRNInfotech.anurdhaappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = anurdhaapp;
+			};
+			name = Debug;
+		};
+		3350528223D6CC9E00C662DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = anurdhaappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BRNInfotech.anurdhaappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = anurdhaapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3350524823D6CC9D00C662DD /* Build configuration list for PBXProject "anurdhaapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3350527823D6CC9E00C662DD /* Debug */,
+				3350527923D6CC9E00C662DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3350527A23D6CC9E00C662DD /* Build configuration list for PBXNativeTarget "anurdhaapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3350527B23D6CC9E00C662DD /* Debug */,
+				3350527C23D6CC9E00C662DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3350527D23D6CC9E00C662DD /* Build configuration list for PBXNativeTarget "anurdhaappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3350527E23D6CC9E00C662DD /* Debug */,
+				3350527F23D6CC9E00C662DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3350528023D6CC9E00C662DD /* Build configuration list for PBXNativeTarget "anurdhaappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3350528123D6CC9E00C662DD /* Debug */,
+				3350528223D6CC9E00C662DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3350525923D6CC9D00C662DD /* anurdhaapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3350525A23D6CC9D00C662DD /* anurdhaapp.xcdatamodel */,
+			);
+			currentVersion = 3350525A23D6CC9D00C662DD /* anurdhaapp.xcdatamodel */;
+			path = anurdhaapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3350524523D6CC9D00C662DD /* Project object */;
+}
